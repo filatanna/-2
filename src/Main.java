@@ -3,6 +3,8 @@ public class Main {
 
         task1();
         task2();
+        task3();
+        task4();
 
     }
     public static void task1() {
@@ -36,5 +38,21 @@ public class Main {
         System.out.println(x);
         System.out.println(y);
         System.out.println(z);
+        }
+        public static void task3() {
+            System.out.println("Задача 3");
+        short LP = 23;
+        short AS = 27;
+        short EA = 30;
+        short sheet = 480;
+            System.out.println("На каждого ученика рассчитано " + sheet / (LP + AS + EA) + " листов бумаги");
+        }
+        public static void task4() {
+            System.out.println("Задача 4");
+        byte a =16;
+            System.out.println("За 20 минут машина произвела " + (a*10) + " штук бутылок.");
+            System.out.println("За сутки машина произвела " + (a*720) + " штук бутылок.");
+            System.out.println("За 3 дня машина произвела " + (a*(720*3)) + " штук бутылок.");
+            System.out.println("За 1 месяц машина произвела " + (a*(720*30)) + " штук бутылок.");
         }
 }
